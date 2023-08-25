@@ -1,12 +1,5 @@
 import React, { useState, useEffect } from "react";
-import {
-  View,
-  Image,
-  Text,
-  ImageBackground,
-  FlatList,
-  TouchableOpacity,
-} from "react-native";
+import { View, Image, FlatList } from "react-native";
 import { gql, useQuery } from "@apollo/client";
 
 // Components

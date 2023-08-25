@@ -18,7 +18,7 @@ import DModal from "../../Components/Modal";
 import Items from "./Components/Items";
 
 // Images
-import { down, back, menu, close, alert } from "../../Assets/Images/index";
+import { back, close, alert } from "../../Assets/Images/index";
 
 //Styles
 import styles from "./styles";

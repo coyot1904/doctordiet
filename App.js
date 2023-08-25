@@ -4,7 +4,7 @@ import { ApolloProvider } from "@apollo/client";
 import { RootStack } from "./src/Screens/index";
 
 // Apollo Config
-import client from "./src/Assets/Constants/ApolloClient";
+import client from "./src/Config/ApolloClient";
 
 function App() {
   return (

@@ -7,7 +7,9 @@ export const facebook = require("./facebook.png");
 export const google = require("./google.png");
 export const apple = require("./apple.png");
 export const mealPlan = {
-  uri: "https://i.dietdoctor.com/wp-content/uploads/2021/09/4-ingredient-chicken-parmesan-h.jpg",
+  uri:
+    process.env.EXPO_PUBLIC_MEDIA_URL +
+    "/wp-content/uploads/2021/09/4-ingredient-chicken-parmesan-h.jpg",
 };
 export const basket = require("./basket.png");
 export const menu = require("./menu.png");
