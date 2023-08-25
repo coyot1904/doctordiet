@@ -1,0 +1,17 @@
+export default {
+  transparent: "transparent",
+  white: "#ffffff",
+  offWhite: "#c9c9c9",
+  green: "#06b05a",
+  darkGrey: "#808080",
+  black: "#000000",
+  lightGrey: "#8B919A",
+  xLightGrey: "#f2f2f2",
+  xDarkGrey: "#afafaf",
+  xxDarkGrey: "#979797",
+  error: "#FF2700",
+  red: "#808080",
+  yellow: "#fab23e",
+  blue: "#1533e4",
+  lightYellow: "#e2fb55",
+};
