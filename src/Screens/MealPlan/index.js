@@ -48,6 +48,10 @@ export default function MealPlan({ navigation }) {
 
   const onSearch = () => {};
 
+  const renderItem = ({ item }) => {
+    return <Items item={item} />;
+  };
+
   return (
     <Layout
       type={2}
@@ -62,7 +66,7 @@ export default function MealPlan({ navigation }) {
               <FlatList
                 data={data}
                 horizontal={true}
-                renderItem={(item) => <Items item={item.item} />}
+                renderItem={renderItem}
                 showsHorizontalScrollIndicator={false}
                 keyExtractor={(item) => item.id}
               />
